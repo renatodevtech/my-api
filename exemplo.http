@@ -1,0 +1,33 @@
+http://localhost:3000/musics
+
+######
+
+http://localhost:3000/musics/2
+
+
+#######
+
+POST http://localhost:3000/musics HTTP/1.1
+content-type: application/json
+
+{
+    "author": "Arautos",
+    "text": "Se Ele não for o primeiro"
+}
+
+######
+
+PUT http://localhost:3000/musics/7d65 HTTP/1.1
+content-type: application/json
+
+{
+    "author": "Arautos do Rei",
+    "text": "Se Ele não for o primeiro"
+}
+
+#######
+
+DELETE http://localhost:3000/musics/2
+
+
+#######
